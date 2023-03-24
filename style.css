@@ -1,0 +1,224 @@
+/* body {
+  margin: 0%;
+  padding: 0%;
+} */
+.nav-link,
+.dropdown-menu {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin: calc(var(--w-nav-item-top-offset) / 2) calc(var(--w-nav-item-gap) / 2);
+  color: #434343 !important;
+}
+
+.dropdown-menu,
+.dropdown-item {
+  z-index: 100 !important;
+}
+.background {
+  /* overflow: hidden; */
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: white;
+  box-shadow: 0 2px 2px -2px rgb(173, 173, 173);
+}
+
+.bg-sectionOne {
+  z-index: 1 !important;
+  background-color: #434343;
+}
+.heading-text {
+  padding-top: 130px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  /* font-weight: 700; */
+  font-weight: bolder;
+  line-height: 57px;
+  color: #d9d9d9;
+}
+.navbar-nav {
+  margin-left: 150px;
+}
+.btn-readMore {
+  background-color: #fff;
+  border-radius: 3px;
+  border: none;
+  font-size: 14px;
+  color: #434343;
+  padding: 10px 20px 10px 20px;
+}
+.btn-Become {
+  border: #fff 1px solid;
+  border-radius: 3px;
+  font-size: 15px;
+  color: #fff;
+  background: none;
+  padding: 8px 20px 8px 20px;
+}
+.btn-Become:hover,
+.btn-readMore:hover {
+  color: #434343;
+  background-color: #d9d9d9;
+  border: none;
+}
+.button-padding {
+  padding-bottom: 130px;
+  padding-top: 30px;
+}
+@media (max-width: 1025px) {
+  .navbar-nav {
+    margin-left: 50px;
+  }
+  .nav-link,
+  .dropdown-menu {
+    /* text-align: center; */
+    font-size: 14px !important;
+  }
+  .navbar-collapse {
+    margin-top: 40px;
+  }
+}
+@media (max-width: 500px) {
+  .nav-link,
+  .dropdown-menu {
+    text-align: center;
+  }
+  .navbar-collapse {
+    margin-top: 40px;
+  }
+}
+/* About Section */
+.heading-about {
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  /* font-weight: bolder; */
+  text-align: center;
+  line-height: 46px;
+  color: #434343;
+  padding-top: 100px;
+}
+.para-text {
+  font-size: 16px;
+  font-weight: 400;
+  /* font-weight: bolder; */
+  text-align: center;
+  line-height: 24px;
+  text-align: justify;
+  color: #434343;
+}
+.btn-LearnMore {
+  border: #434343 1px solid;
+  border-radius: 3px;
+  font-size: 15px;
+  color: #434343;
+  background: none;
+  padding: 10px 20px 10px 20px;
+}
+
+.btn-LearnMore:hover {
+  background: #434343;
+  border: none;
+  color: #fff;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+}
+/* Sectors For Investment */
+.text-sector {
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  /* font-weight: bolder; */
+  text-align: center;
+  line-height: 46px;
+  color: #434343;
+  text-align: center;
+}
+.card-bg {
+  background-color: #e9e9e9;
+  margin-top: 30px !important;
+}
+.card-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  /* font-weight: bolder; */
+  color: #434343;
+  /* text-align: center; */
+}
+.card-href {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 50px !important;
+  /* font-weight: bolder; */
+  color: #434343;
+  /* text-align: center; */
+}
+
+/* ******************************************************* */
+.text-theIcons {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 30px !important;
+  /* font-weight: bolder; */
+  color: #434343;
+}
+.text-experience {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 50px !important;
+  /* font-weight: bolder; */
+  color: #434343;
+}
+
+/*  */
+.text-Investing {
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  margin-top: 50px !important;
+  /* font-weight: bolder; */
+  color: #d9d9d9;
+  text-align: center;
+}
+.text-youCan {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 20px !important;
+  /* font-weight: bolder; */
+  color: #d9d9d9;
+  text-align: center;
+}
+.text-islamic {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  margin: 20px;
+  /* font-weight: bolder; */
+  color: #434343;
+  text-align: center;
+}
+.text-multipurpose {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 50px !important;
+  /* font-weight: bolder; */
+  color: #434343;
+  text-align: center;
+}
+.href-multipurpose{
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  /* margin: 50px !important; */
+  /* font-weight: bolder; */
+  color: #434343;
+  text-align: center !important;
+  text-decoration: none;
+}
