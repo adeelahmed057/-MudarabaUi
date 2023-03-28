@@ -212,7 +212,7 @@
   color: #434343;
   text-align: center;
 }
-.href-multipurpose{
+.href-multipurpose {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -221,4 +221,135 @@
   color: #434343;
   text-align: center !important;
   text-decoration: none;
+}
+
+/*  */
+.footer-bg {
+  background: #212224;
+}
+
+.text-draftium {
+  font-size: xx-large;
+  color: #fff;
+  text-align: center;
+}
+.text-this-site {
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+}
+.btn-show {
+  color: #000;
+  background-color: #fff;
+  font-size: 16px;
+  border-radius: 50px;
+  border: none;
+}
+.text-created {
+  font-size: 14px;
+  font-weight: 400;
+  /* margin: 50px !important; */
+  /* font-weight: bolder; */
+  color: #434343;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/*  */
+ul {
+  list-style: none;
+}
+li {
+  margin: 10px;
+  font-size: 16px;
+  font-weight: 400;
+
+  color: #d9d9d9;
+}
+
+.text-mudaraba {
+  font-size: 24px;
+  font-weight: 400;
+  /* margin: 50px !important; */
+  /* font-weight: bolder; */
+  margin-bottom: 40px;
+  color: #d9d9d9;
+}
+
+.text-ourCompany {
+  font-size: 16px;
+  font-weight: 400;
+  /* margin: 50px !important; */
+  /* font-weight: bolder; */
+  /* margin-bottom: 20px; */
+  color: #d9d9d9;
+}
+.fa-brands {
+  font-size: 30px !important;
+}
+
+/*  */
+.text-office {
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #434343;
+  text-align: center !important;
+}
+
+/*  */
+.form-bg{
+  background: #E9e9e9;
+}
+.text-contact{
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #434343;
+  /* text-align: center !important; */
+}
+.text-thankYou{
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #434343;
+  /* text-align: center !important; */
+}
+.text-address{
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #434343;
+}
+.text-location{
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #434343;
+}
+input{
+ height: 50px;
+    background-color: #d5d5d5 !important;
+}
+.form-group{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#myTextarea{
+  width: 100%;
+  background-color: #d5d5d5 !important;
+  border-radius: 10px;
+  border: none;
+  height: 250px;
+  
 }
